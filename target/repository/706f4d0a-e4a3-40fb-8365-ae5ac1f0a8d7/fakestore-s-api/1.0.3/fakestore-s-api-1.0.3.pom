@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>706f4d0a-e4a3-40fb-8365-ae5ac1f0a8d7</groupId>
+  <artifactId>fakestore-s-api</artifactId>
+  <version>1.0.3</version>
+  <name>Fakestore System API</name>
+  <properties>
+    <classifier>raml</classifier>
+    <main>fakestore-s-api.raml</main>
+    <status>published</status>
+    <originalFormatVersion>1.0</originalFormatVersion>
+    <apiVersion>v1</apiVersion>
+    <projectId>36982053-66b1-4974-94b4-ca2eb941b073</projectId>
+    <branchId>master</branchId>
+    <commitId>17dce6766bbd8883a23fdf50c558a7209e249263</commitId>
+    <keywords/>
+    <type>rest-api</type>
+    <mainFile>fakestore-s-api.raml</mainFile>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>706f4d0a-e4a3-40fb-8365-ae5ac1f0a8d7</groupId>
+      <version>1.0.5</version>
+      <type>zip</type>
+      <classifier>raml-fragment</classifier>
+      <artifactId>common-raml-fragments</artifactId>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>anypoint-exchange</id>
+      <url>https://maven.anypoint.mulesoft.com/api/v3/maven</url>
+    </repository>
+  </repositories>
+</project>
