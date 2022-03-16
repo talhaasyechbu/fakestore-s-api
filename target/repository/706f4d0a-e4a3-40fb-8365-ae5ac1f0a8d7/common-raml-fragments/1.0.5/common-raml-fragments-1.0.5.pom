@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>706f4d0a-e4a3-40fb-8365-ae5ac1f0a8d7</groupId>
+  <artifactId>common-raml-fragments</artifactId>
+  <version>1.0.5</version>
+  <name>Common RAML Fragments</name>
+  <properties>
+    <classifier>raml-fragment</classifier>
+    <main>common-raml-fragments.raml</main>
+    <originalFormatVersion>1.0</originalFormatVersion>
+    <projectId>8151ecd3-b4e0-4073-8d56-dbc6c9bd2982</projectId>
+    <branchId>master</branchId>
+    <commitId>111ddab0020f07fe983e682d1aec23040c3afdb6</commitId>
+    <keywords/>
+    <type>raml-fragment</type>
+    <mainFile>common-raml-fragments.raml</mainFile>
+  </properties>
+  <repositories>
+    <repository>
+      <id>anypoint-exchange</id>
+      <url>https://maven.anypoint.mulesoft.com/api/v3/maven</url>
+    </repository>
+  </repositories>
+</project>
